@@ -5,12 +5,20 @@
     box-sizing: border-box;
 }
 
-body {
+body,
+h1,
+h2,
+h3 {
     font-family: "Baloo Bhai", cursive;
+    color: #404040;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color:  #666666;
 }
 a {
     text-decoration: none;
-    color: black;
+    color:  #404040;
 }
 img {
     max-width: 100%;
@@ -18,18 +26,22 @@ img {
 header {
     background: lightblue;
 }
-
 /* Navigation Styles */
 
+.name {
+    border: 1px red solid;
+}
+.bio {
+    padding-top: 20px;
+    border: 1px red solid;
+}
 .header-content {
     text-align: center;
 }
 .main-nav {
     border: 1px red solid;
     padding-left: 0;
-}
-.name {
-    border: 1px red solid;
+    margin-top: 0;
 }
 /* Layout Containers */
 
@@ -44,8 +56,13 @@ header {
     text-align: center;
 }
 
+
 .clearfix::after {
     content: " ";
     display: table;
     clear: both;
+}
+
+.contact-info {
+    color: #a6a6a6;
 }
