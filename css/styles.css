@@ -15,23 +15,24 @@ a {
 img {
     max-width: 100%;
 }
+header {
+    background: lightblue;
+}
 
 /* Navigation Styles */
-
-.name {
-}
-.main-nav {
-    list-style-type: none;
-}
-.main-nav li {
-    margin: 5px;
-}
-
-/* Layout Containers */
 
 .header-content {
     text-align: center;
 }
+.main-nav {
+    border: 1px red solid;
+    padding-left: 0;
+}
+.name {
+    border: 1px red solid;
+}
+/* Layout Containers */
+
 .main-content {
     margin: 0 auto;
     width: 90%;
@@ -41,7 +42,6 @@ img {
 .contact,
 .bio {
     text-align: center;
-    border: 1px red solid;
 }
 
 .clearfix::after {
