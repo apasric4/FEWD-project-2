@@ -4,18 +4,19 @@
 		<meta charset="utf-8">
 		<title>Responsive Website</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet" >
+		<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/styles.css">
 	</head>
 
 	<body>
 
-		<header>
+		<header id="top">
 			<div class="header-content"> 
 				<hl class="title">Amandeep Pasricha</hl> 
 					<nav>
 						<ul>
-							<li><a href=#>Home</a></li>
+							<li><a href="index.html">Home</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
 							<li><a href="#contact">Contact</a></li> 
 						</ul>
@@ -23,49 +24,55 @@
 			</div>
 		</header> 
 
-		<div class="bio col">
-			<img src="images/responsive-layout-profile.png" alt="Profile Picture">
-			<p>Hi! I'm an aspiring computer programmer that wants to work for a tech-startup. I am currently finishing the front-end web development degree to gain the skills to do that.</p> 
+		<div class="main-content"> 
+
+			<div class="bio col">
+				<img src="images/responsive-layout-profile.png" alt="Profile Picture">
+				<p>Hi! I'm an aspiring computer programmer that wants to work for a tech-startup. I am currently finishing the front-end web development degree to gain the skills to do that.</p> 
+			</div>
+
+			<div class="portfolio col" id="portfolio">
+				<h2>Portfolio</h2>
+				<img src="images/portfolio-1.png" alt="Portfolio 1">
+				<h2>Marketing Page</h2>
+					<p>This is marketing page</p>
+				<img src="images/portfolio-2.png" alt="Portfolio 2">
+				<h2>Search Page</h2>
+					<p>This is my search page</p> 
+				<img src="images/portfolio-3.png" alt="Portfolio 3">
+				<h2>Travel App</h2> 
+					<p>This is my travel page</p> 
+				<img src="images/portfolio-4.png" alt="Portfolio 4">
+				<h2>Map of Favorite Spots</h2> 
+					<p>This is my sports page</p>
+				<img src="images/portfolio-5.png" alt="Portfolio 5">
+				<h2>Photo Gallery</h2> 
+					<p>This is my project gallery project</p>
+				<img src="images/portfolio-6.png" alt="Portfolio 6">
+				<h2>Calculator</h2>
+					<p>This is my calculator project</p> 
+			</div> 
+
+			<div class="contact col" id="contact"> 
+				<h2>CONTACT</h2>
+				<p>If you're interested in more information, I'd love to hear from you!</p> 
+				<h3>Email:<a href="mailto:fakemail@hotmail.com?subject=About%20Your%20Project"> amandeep2008@hotmail.com</a></h3>
+				<h3>Phone: <a href="tel: 647-766-4313">647-766-4313</a></h3>
+			</div>
+
 		</div>
 
-		<div class="portfolio col" id="portfolio">
-			<h2>Portfolio</h2>
-			<img src="images/portfolio-1.png" alt="Portfolio 1">
-			<h2>Marketing Page</h2>
-				<p>This is marketing page</p>
-			<img src="images/portfolio-2.png" alt="Portfolio 2">
-			<h2>Search Page</h2>
-				<p>This is my search page</p> 
-			<img src="images/portfolio-3.png" alt="Portfolio 3">
-			<h2>Travel App</h2> 
-				<p>This is my travel page</p> 
-			<img src="images/portfolio-4.png" alt="Portfolio 4">
-			<h2>Map of Favorite Spots</h2> 
-				<p>This is my sports page</p>
-			<img src="images/portfolio-5.png" alt="Portfolio 5">
-			<h2>Photo Gallery</h2> 
-				<p>This is my project gallery project</p>
-			<img src="images/portfolio-6.png" alt="Portfolio 6">
-			<h2>Calculator</h2>
-				<p>This is my calculator project</p> 
-		</div> 
-
-		<div class="contact column" id="contact"> 
-			<h2>CONTACT</h2>
-			<p>If you're interested in more information, I'd love to hear from you!</p> 
-			<h3>Email:<a href="mailto:fakemail@hotmail.com?subject=About%20Your%20Project">amandeep2008@hotmail.com</a></h3>
-			<h3>Phone: <a href="tel: 647-766-4313">647-766-4313</a></h3>
-		</div>
-	
 		<footer>
 		<h3>Amandeep Pasricha</h3>
 			<nav>
 				<ul>
+					<li><a href="#top">BACK TO TOP</a></li>
 					<li><a href=#>Home</a></li>
 					<li><a href=#>Portfolio</a></li>
 					<li><a href=#>Contact</a></li> 
 				</ul>
 			</nav>
 		</footer>
+
 	</body>
 </html>

@@ -1,5 +1,30 @@
-/* Element Tags */
+
+/* Base Element Styles */
 
 body {
     font-family: "Baloo Bhai", cursive;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: skyblue;
+}
+a:active {
+    color: red;
+}
+img {
+    max-width: 100%;
+}
+/* Layout Containers */
+
+.main-content {
+    margin: 0 auto;
+    width: 90%;
+}
+.portfolio {
+    text-align: center;
+}
+.contact {
+    text-align: center;
 }
