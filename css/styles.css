@@ -1,30 +1,51 @@
 
 /* Base Element Styles */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Baloo Bhai", cursive;
 }
-a:link {
+a {
+    text-decoration: none;
     color: black;
-}
-a:visited {
-    color: skyblue;
-}
-a:active {
-    color: red;
 }
 img {
     max-width: 100%;
 }
+
+/* Navigation Styles */
+
+.name {
+}
+.main-nav {
+    list-style-type: none;
+}
+.main-nav li {
+    margin: 5px;
+}
+
 /* Layout Containers */
 
+.header-content {
+    text-align: center;
+}
 .main-content {
     margin: 0 auto;
     width: 90%;
 }
-.portfolio {
+
+.portfolio,
+.contact,
+.bio {
     text-align: center;
+    border: 1px red solid;
 }
-.contact {
-    text-align: center;
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
 }
