@@ -5,7 +5,11 @@
     box-sizing: border-box;
 }
 
-body,
+body {
+    background:  #fff4e6;
+    font-family: "Baloo Bhai", cursive;
+}
+
 h1,
 h2,
 h3 {
@@ -23,23 +27,20 @@ a {
 img {
     max-width: 100%;
 }
-header {
-    background: lightblue;
+footer {
+    padding: 0 10px;
 }
 /* Navigation Styles */
 
-.name {
-    border: 1px red solid;
-}
 .bio {
     padding-top: 20px;
-    border: 1px red solid;
 }
 .header-content {
     text-align: center;
+    margin: 20px;
 }
 .main-nav {
-    border: 1px red solid;
+    list-style-type: none;
     padding-left: 0;
     margin-top: 0;
 }
@@ -56,13 +57,21 @@ header {
     text-align: center;
 }
 
-
+.contact-info {
+    font-family: 'Roboto', sans-serif;
+    color: #a6a6a6;
+}
+.non-mobile-display {
+    display: none;
+}
+.footer-name {
+    float: left;
+}
+.footer-nav {
+    float: right;
+}
 .clearfix::after {
     content: " ";
     display: table;
     clear: both;
-}
-
-.contact-info {
-    color: #a6a6a6;
 }
