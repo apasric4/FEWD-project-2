@@ -13,12 +13,13 @@ body {
 h1,
 h2,
 h3 {
-    font-family: "Baloo Bhai", cursive;
     color: #404040;
 }
+
 p {
     font-family: 'Roboto', sans-serif;
     color:  #666666;
+    line-height: 1.6em;
 }
 a {
     text-decoration: none;
@@ -73,8 +74,15 @@ footer {
 }
 /* Layout Containers */
 
+.col {
+    margin: 25px 0;
+}
 .bio {
-    padding-top: 20px;
+    padding-top: 30px;
+}
+.skills {
+    text-align: center;
+    padding-bottom: 15px;
 }
 .main-content {
     margin: 0 auto;
@@ -94,26 +102,32 @@ footer {
     text-align: center;
 }
 
+/* Other */
+
 .contact-info {
     font-family: 'Roboto', sans-serif;
     color: #a6a6a6;
 }
-.clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
+.contact-header {
+    text-transform: uppercase;
 }
+
+
 @media (min-width: 768px) {
 
-    .header-name {
-        float: left;
-    }
     .main-nav {
-        float: right;
+        display: inline-block;
     }
     .main-nav li {
         float: left;
-        margin-left: 5px;
+        margin-right: 10px;
+    } 
+    .profile-pic {
+        float: right;
+        margin-left: 10px;
+    }
+    .bio p {
+        text-align: left;
     }
     .bio {
         margin-bottom: 40px;
@@ -138,6 +152,12 @@ footer {
 }
 @media (min-width: 1024px) {
     
+    .header-name {
+        float: left;
+    }
+    .main-nav {
+        float: right;
+    }
     .portfolio-item {
         display: inline-block;
         width: 28%;
