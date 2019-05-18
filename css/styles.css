@@ -134,6 +134,7 @@ footer {
     }
     .portfolio-item {
         display: inline-block;
+        vertical-align: top;
         width: 45%;
         margin: 10px;
     }
