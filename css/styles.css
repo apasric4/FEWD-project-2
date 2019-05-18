@@ -141,6 +141,9 @@ footer {
     .footer-top {
         display: none;
     }
+    .footer-name {
+        float: left;
+    }
     .non-mobile-list {
         display: block;
         list-style-type: none;
