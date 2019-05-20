@@ -64,10 +64,12 @@ footer {
 .footer-name {
     float: left;
     color: #404040;
+    width: 25%;
 }
 .footer-top {
     float: right;
     text-transform: uppercase;
+    width: 25%;
 }
 .non-mobile-list {
     display: none;
@@ -146,8 +148,8 @@ footer {
     }
     .non-mobile-list {
         display: block;
-        list-style-type: none;
         float: right;
+        list-style-type: none;
     }
     .non-mobile-list li {
         float: left;
